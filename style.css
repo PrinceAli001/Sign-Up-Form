@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: NorseBold;
+    src: url(Fonts/Norse-Bold.otf);
+}
+main{
+    display: flex;
+    padding: 0 300px;
+    width: 100vw;
+    height: 100vh;
+}
+#bg-and-image{
+    /* border: 2px solid red; */
+    background-image: url(Images/nature1.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35%;
+    height: 100%;
+
+}
+#form-div{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 100%;
+}
+#text{
+    /* border: 2px solid red; */
+    height: 300px;
+    padding: 100px 90px 30px 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#second-line{
+    margin-top: 30px;
+}
