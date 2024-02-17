@@ -8,12 +8,44 @@
 </head>
 <body>
     <main>
-        <div id="bg-and-image"></div>
+        <div id="bg-and-image">
+            <div id="logo-and-word">
+                <img src="Images/logo.webp" alt="nature">
+                <span id="nature">NATURE</span>
+            </div>
+        </div>
         <div id="form-div">
             <div id="text">
                 <p id="first-line">Begin your journey of self tranformation with us. This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
                 <p id="second-line">You <em>know</em> you want to.</p>
             </div>
+            <form action="#" method="post">
+                <h1>Let's do this!</h1>
+                <div class="input">
+                    <label for="fnamne">FIRST NAME</label>
+                    <input type="text" id="fnamne" name="firstname">
+                </div>
+                <div class="input">
+                    <label for="lnamne">LAST NAME</label>
+                    <input type="text" id="lnamne" name="lastname">
+                </div>
+                <div class="input">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="input">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" id="tel" name="tel">
+                </div>
+                <div class="input">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="pwd" pattern="">
+                </div>
+                <div class="input">
+                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-pwd" name="confirm-password" pattern="">
+                </div>
+            </form>
         </div>
     </main>
 </body>
