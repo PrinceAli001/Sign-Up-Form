@@ -49,6 +49,7 @@ img{
     color: #ffffff;
 }
 #form-div{
+    position: relative;
     width: 65%;
     height: 100%;
     background-color: rgba(255, 255, 255, .3);
@@ -66,7 +67,7 @@ img{
 form{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 300px 20px 50px;
+    padding: 10px 100px 20px 50px;
     box-shadow: 5px 0px 5px ;
     background-color: #ffffff;
 }
@@ -88,4 +89,30 @@ h1{
     width: 100%;
     height: 37px;
     border-radius: 5px;
+    border:2px solid #E5E7EB;
+    font-size: 1.3rem;
+    padding-left: 8px;
+}
+input:focus{
+    outline-color: blue;
+    border-color: blue;
+    box-shadow: 2px 2px 5px ;
+}
+button{
+    position: absolute;
+    padding: 15px 50px;
+    color: #ffffff;
+    font-size: 1.4rem;
+    background-color: #596d48;
+    border-radius: 7px;
+    top: 82%;
+    left: 50px;
+}
+a{
+    text-decoration: none;
+    color: #596d48;
+}
+form + p{
+    margin-top: 120px;
+    margin-left: 50px;
 }

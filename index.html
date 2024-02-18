@@ -23,29 +23,31 @@
                 <h1>Let's do this!</h1>
                 <div class="input">
                     <label for="fnamne">FIRST NAME</label>
-                    <input type="text" id="fnamne" name="firstname">
+                    <input type="text" id="fnamne" name="firstname" placeholder="Steve" required>
                 </div>
                 <div class="input">
                     <label for="lnamne">LAST NAME</label>
-                    <input type="text" id="lnamne" name="lastname">
+                    <input type="text" id="lnamne" name="lastname" placeholder="Rojers" required>
                 </div>
                 <div class="input">
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" placeholder="joe@yourmail.com" name="email">
                 </div>
                 <div class="input">
                     <label for="tel">PHONE NUMBER</label>
-                    <input type="tel" id="tel" name="tel">
+                    <input type="tel" id="tel" min="11" max="11" placeholder="xxx-xxx-xxx" name="tel">
                 </div>
                 <div class="input">
                     <label for="pwd">PASSWORD</label>
-                    <input type="password" id="pwd" name="pwd" pattern="">
+                    <input type="password" id="pwd" placeholder="Setno90" class="error" maxlength="8" minlength="8" name="password" pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)$/" required>
                 </div>
                 <div class="input">
                     <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-pwd" name="confirm-password" pattern="">
+                    <input type="password" id="confirm-pwd" placeholder="Setno90" class="error" maxlength="8" minlength="8" name="confirm-password" pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)$/" required>
                 </div>
+                <button>Create Account</button>
             </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </main>
 </body>
