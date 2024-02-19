@@ -39,13 +39,13 @@
                 </div>
                 <div class="input motion">
                     <label for="pwd">PASSWORD</label>
-                    <input type="password" id="pwd" placeholder="Setno90" class="error" maxlength="8" minlength="8" name="password" pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)$/" required>
+                    <input type="password" id="pwd" placeholder="Setno90" class="error" minlength="6" maxlength="12" name="password" required>
                 </div>
                 <div class="input motion">
                     <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-pwd" placeholder="Setno90" class="error" maxlength="8" minlength="8" name="confirm-password" pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)$/" required>
+                    <input type="password" id="confirm-pwd" placeholder="Setno90" class="error" minlength="6" maxlength="12" name="confirm-password" required>
                 </div>
-                <button>Create Account</button>
+                <button id="bt">Create Account</button>
             </form>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
